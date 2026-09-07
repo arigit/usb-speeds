@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2026 Ariel
+# SPDX-License-Identifier: GPL-3.0-or-later
 """List every non-hub USB device with its negotiated link speed.
 
 Reads sysfs and /proc directly - no lsblk or lsusb parsing. Link speeds
