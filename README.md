@@ -6,13 +6,13 @@ Usage:
     usb-speeds.py [-s|--include-storage]
 ```
 
-Ever got frustrated by how cumbersome it could be to find out at what speed your new USB gizmo connected? 
+Ever got frustrated by how cumbersome it could be to find out at what speed your new USB gizmo connected to your Linux Desktop / Server? 
 
 Ever got frustrated when copying a thousand NEF pictures from your CFexpress reader by how slow the transfer is? 
 
 My reader, when connected with the wrong cable or to the wrong port, connects at USB2/480Mbps speed even if it supports 10Gbps. Hilariously, when connected to a USB4 40000Mbps port, it downgrades to USB2 as well. 
 
-Well, now you can very quickly check your setup/usb topology in your terminal before starting your transfer / backup / etc:
+Well, now you can very quickly check your setup/usb topology in your terminal before starting your transfer / backup / etc.
 
 ```
 > usb-speeds
@@ -52,4 +52,6 @@ sde      USB3.2 Gen2 (10Gb/s)  CFexpress PG05.5                        745.2G  /
 sdf      USB3.2 Gen1 (5Gb/s)   SD PG05.5                               0B
 ```
 
-Prepared with some help from Claude
+Tested on Ubuntu Linux 26.04LTS/Desktop and 26.10/Server.
+
+Written with some help from Claude
