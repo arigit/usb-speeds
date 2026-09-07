@@ -8,11 +8,11 @@ Usage:
 
 Ever got frustrated by how cumbersome it could be to find out at what speed your new USB gizmo connected to your Linux Desktop / Server? 
 
-Ever got frustrated when copying a thousand NEF pictures from your CFexpress reader by how slow the transfer is? 
+Ever got frustrated when copying a thousand NEF pictures from your CFexpress reader by how slow the transfer is even if your HW is supposed to be really really fast? 
 
-My reader, when connected with the wrong cable or to the wrong port, connects at USB2/480Mbps speed even if it supports 10Gbps. Hilariously, when connected to a USB4 40000Mbps port, it downgrades to USB2 as well. 
+My CFe reader, when used with the wrong cable or plugged to the wrong port, connects at USB2/480Mbps speed even if it supports 10Gbps. Hilariously, when connected to a USB4 40000Mbps port with a proper cable, it downgrades to USB2 as well. Lesson: check your speed before starting a long transfer.
 
-Well, now you can very quickly check your setup/usb topology in your terminal before starting your transfer / backup / etc.
+Well, now you can very quickly check your gizmo speed and more from the confort of your terminal before starting your transfer / backup / etc.
 
 ```
 > usb-speeds
