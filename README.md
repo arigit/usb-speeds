@@ -1,6 +1,11 @@
 # usb-speeds
 List every non-hub USB device with its negotiated link speed, presenting all the data in a simple tabular format
 
+```
+Usage:
+    usb-speeds.py [-s|--include-storage]
+```
+
 Ever got frustrated by how cumbersome it could be to find out at what speed your new USB gizmo connected? 
 
 Ever got frustrated when copying a thousand NEF pictures from your CFexpress reader by how slow the transfer is? 
