@@ -7,7 +7,7 @@ Ever got frustrated when copying a thousand NEF pictures from your CFexpress rea
 
 My reader, when connected with the wrong cable or to the wrong port, connects at USB2/480Mbps speed even if it supports 10Gbps. Hilariously, when connected to a USB4 40000Mbps port, it downgrades to USB2 as well. 
 
-Well, now you can very quickly check in your terminal:
+Well, now you can very quickly check your setup/usb topology in your terminal before starting your transfer / backup / etc:
 
 ```
 > usb-speeds
